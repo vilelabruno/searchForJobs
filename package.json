@@ -1,0 +1,18 @@
+{
+  "name": "searchforjobs",
+  "version": "1.0.0",
+  "description": "node application to find jobs automatically",
+  "main": "app.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "vilela",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^5.5.0"
+  }
+}
